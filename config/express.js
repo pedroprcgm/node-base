@@ -3,7 +3,8 @@ const express = require('express'),
     consign = require('consign'),
     path = require('path');
 
-consign('routes', { cwd: 'app' })
+consign()
+    .include('routes')
     .then('infra')
     .then('api')
     .into(app);
