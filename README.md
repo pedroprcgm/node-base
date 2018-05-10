@@ -8,6 +8,6 @@ The basic of a NodeJS API
 
 # How to run
 - Clone the repo
-- Run the command npm install on root folder
+- Open terminal go to root folder project and run the command npm install
 - Change the database configuration of file config/config.js
-- Run the command npm run dev
+- On terminal run the command npm run dev
